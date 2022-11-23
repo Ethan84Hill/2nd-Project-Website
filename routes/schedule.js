@@ -6,10 +6,10 @@ const isLoggedIn = require('../middleware/isLoggedIn')
 const isLoggedOut = require('../middleware/isLoggedOut')
 const axios = require("axios");
 
-
-router.get('/news', (req, res, next) => {
-    res.render('news.hbs')
+router.get('/schedule', (req, res, next) => {
+    res.render('schedule.hbs')
 })
+
 
 
 module.exports = router;

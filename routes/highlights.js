@@ -7,6 +7,9 @@ const isLoggedOut = require('../middleware/isLoggedOut')
 const axios = require("axios");
 
 
+router.get('/highlights', (req, res, next) => {
+    res.render('highlights.hbs')
+})
 
 
 module.exports = router;

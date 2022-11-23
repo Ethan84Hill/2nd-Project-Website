@@ -7,8 +7,8 @@ const isLoggedOut = require('../middleware/isLoggedOut')
 const axios = require("axios");
 
 
-router.get('/news', (req, res, next) => {
-    res.render('news.hbs')
+router.get('/list-favorites', (req, res, next) => {
+    res.render('list-favorites.hbs')
 })
 
 

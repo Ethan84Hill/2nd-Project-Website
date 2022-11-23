@@ -127,6 +127,30 @@ body {
   color: white;
 }
 
+.news {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+.schedule {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+.highlights {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+.favorites {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
 .navstandings {
   text-decoration: none;
   padding: 10px;
