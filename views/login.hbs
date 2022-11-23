@@ -1,0 +1,23 @@
+<div class="signup-login-background">
+    <h1 class="loginHeader">Log In</h1>
+<form action="/login" method="post">
+<div class="emailText">
+    <label for="">Email</label>
+</div>
+<div class="emailEnter">
+    <input class="box-size" type="email" name="email" />
+</div>
+<div class="passwordText">
+    <label for="">Password</label>
+</div>
+<div class="passwordEnter">
+    <input class="box-size" type="password" name="password" />
+</div>
+<div class="loginButton">
+    <button class="buttonText" type="submit">Log in</button>
+</div>
+</form>
+{{#if errorMessage}}
+<p style="color: red;">{{errorMessage}}</p>
+{{/if}}
+</div>
