@@ -1,15 +1,22 @@
 body {
   padding: 10px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(199, 199, 199);
 }
 
 a {
   color: #00B7FF;
 }
 
-body {
+/* body {
   background-color: rgb(199, 199, 199);
-}
+  background-image: url(../images/ufc\ background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-size: 3000px;
+  margin: auto;
+} */
 
 .ufcimage {
   background-image: url("../images/UFC-Logo.png");
@@ -32,6 +39,7 @@ body {
   box-shadow: 6px 4px black;
   border-radius: 10px;
   width: 700px;
+  margin-top: 160px;
 }
 
 .loginHeader {
@@ -81,6 +89,10 @@ body {
 .buttonText {
   font-size: 20px;
   padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  box-shadow: 6px 4px black;
 }
 
 .nav-bar {
