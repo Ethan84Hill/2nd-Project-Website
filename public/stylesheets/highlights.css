@@ -1,0 +1,38 @@
+.highlights-header {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.highlights-container {
+    width: 500px;
+    height: 281px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.highlights-title {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-decoration: underline;
+}
+
+.highlights-background {
+    background-color: rgb(150, 0, 0);
+    border-radius: 5px;
+    width: 585px;
+    margin: auto;
+    box-shadow: 6px 4px black;
+    margin-bottom: 40px;
+}
+
+.highlights-organizer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

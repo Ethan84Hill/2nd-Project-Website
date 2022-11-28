@@ -1,1 +1,39 @@
-<h1>Schedule</h1>
+
+<h1 class="header">Schedule</h1>
+
+<div class="eventOrganizer">
+{{#each foundSchedule}}
+<div class="event-background">
+    <h2 class="eventTitle">{{eventDescription}}</h2>
+    {{#each fights}}
+    <div class="fight-header">
+        <p>{{description}}:</p>
+    </div>
+
+<div class="fighter-organizer">
+    <div class="fighter-odds-organizer">
+        <div class="fighter-name">
+        <p>{{fighter1}}</p> 
+        </div>
+
+        <div class="betting-odds">
+        <p>{{moneyLine1}}</p>
+        </div>
+    </div>
+    
+    <div class="fighter-odds-organizer">
+        <div class="fighter-name">
+        <p>{{fighter2}}</p>
+        </div>
+
+        <div class="betting-odds">
+        <p>{{moneyLine2}}</p>
+        </div>
+    </div>
+    
+</div>
+    <hr>
+    {{/each}} 
+</div>
+{{/each}}
+</div>

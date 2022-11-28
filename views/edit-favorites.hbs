@@ -1,0 +1,33 @@
+
+<div class="create-background">
+    <h1 class="createHeader">Edit Fighter</h1>
+<form action="/fighter/{{_id}}/edit-favorites" method="post">
+
+<div class="nameText">
+    <label for="name">Name:</label>
+</div>
+<div class="nameEnter">
+    <input class="box-size" type="text" name="name" id="name" value="{{name}}">
+</div>
+
+<div class="descriptionText">
+    <label for="">Description:</label>
+</div>
+<div class="descriptionEnter">
+    <input class="box-size" type="text" name="description" value="{{description}}">
+</div>
+
+<div class="imageText">
+    <label for="">Image:</label>
+</div>
+<div class="imageEnter">
+    <input class="box-size" type="text" name="imageUrl" value="{{imageUrl}}">
+</div>
+
+
+<div class="addButton">
+    <button class="addButtonText" type="submit">Submit Changes</button>
+</div>
+
+</form>
+</div>

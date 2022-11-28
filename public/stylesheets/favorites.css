@@ -1,0 +1,145 @@
+.create-background {
+    background-color: rgb(150, 0, 0);
+    margin: auto;
+    box-shadow: 6px 4px black;
+    border-radius: 10px;
+    width: 700px;
+}
+
+.createHeader {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 20px;
+    color: white;
+    text-decoration: underline;
+}
+
+.nameText {
+    text-align: center;
+    padding: 5px;
+    font-size: 40px;
+    color: white;
+}
+
+.nameEnter {
+  display: flex;
+  justify-content: center;
+}
+
+.descriptionText {
+    text-align: center;
+    padding: 5px;
+    font-size: 40px;
+    color: white;
+    padding-top: 30px;
+}
+
+.descriptionEnter {
+    display: flex;
+    justify-content: center;
+}
+
+.imageText {
+    text-align: center;
+    padding: 5px;
+    font-size: 40px;
+    color: white;
+    padding-top: 30px;
+}
+
+.imageEnter {
+    display: flex;
+    justify-content: center;
+}
+
+.addButton {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.addButtonText {
+    font-size: 20px;
+  padding: 10px;
+}
+
+.box-size {
+    width: 500px;
+    height: 30px;
+  }
+
+.favoritesHeader {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fighterName {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    text-decoration: underline;
+}
+
+.fighterDescription {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.fighterIMG {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.editButton {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.editButtonText {
+    font-size: 15px;
+    padding: 5px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 10px;
+}
+
+.deleteButton {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.deleteButtonText {
+    font-size: 15px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.favoritesOrganizer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.favoritesBackground {
+    background-color: rgb(150, 0, 0);
+    margin: 10px;
+    box-shadow: 6px 4px black;
+    border-radius: 10px;
+    width: 700px;
+}

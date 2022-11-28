@@ -1,0 +1,48 @@
+.eventOrganizer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.event-background {
+    background-color: rgb(150, 0, 0);
+    border-radius: 5px;
+    width: 585px;
+    margin: auto;
+    box-shadow: 6px 4px black;
+    margin-bottom: 40px;
+}
+
+.eventTitle {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.fight-header {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.fighter-organizer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fighter-odds-organizer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.fighter-name {
+    color: white;
+    text-align: center;
+}
+
+.betting-odds {
+    color: white;
+    text-align: center;
+}
