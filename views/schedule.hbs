@@ -8,6 +8,7 @@
     {{#each fights}}
     <div class="fight-header">
         <p>{{description}}:</p>
+        <hr class="hr-line">
     </div>
 
 <div class="fighter-organizer">
@@ -17,7 +18,7 @@
         </div>
 
         <div class="betting-odds">
-        <p>{{moneyLine1}}</p>
+        <p class="odds-space">Odds:   {{moneyLine1}}</p>
         </div>
     </div>
     
@@ -27,12 +28,12 @@
         </div>
 
         <div class="betting-odds">
-        <p>{{moneyLine2}}</p>
+        <p class="odds-space">Odds:   {{moneyLine2}}</p>
         </div>
     </div>
     
 </div>
-    <hr>
+    <hr class="hr-fight-splitter">
     {{/each}} 
 </div>
 {{/each}}

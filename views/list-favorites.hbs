@@ -11,8 +11,8 @@
         <p class="fighterDescription">{{this.description}}</p>
         <img class="fighterIMG" src="{{imageUrl}}" alt="fighter image">
 
-
-        <form action="/fighter/{{_id}}/edit-favorites" method="get">
+<div class="edit-delete-organizer">
+    <form action="/fighter/{{_id}}/edit-favorites" method="get">
         <div class="editButton">
             <button class="editButtonText" type="submit">Edit</button>
         </div>
@@ -23,6 +23,8 @@
             <button class="deleteButtonText" type="submit">Delete</button>
         </div>
         </form>
+</div>
+        
     </div>
     {{/each}}
 </div>

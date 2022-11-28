@@ -114,7 +114,8 @@
 .editButton {
     display: flex;
     justify-content: center;
-    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .editButtonText {
@@ -129,8 +130,8 @@
 .deleteButton {
     display: flex;
     justify-content: center;
-    padding: 5px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .deleteButtonText {
@@ -154,4 +155,10 @@
     box-shadow: 6px 4px black;
     border-radius: 10px;
     width: 700px;
+}
+
+.edit-delete-organizer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
