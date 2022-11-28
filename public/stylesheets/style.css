@@ -121,6 +121,7 @@ body {
   text-decoration: none;
   color: white;
   padding: 10px;
+  padding-left: 85px;
 }
 
 .login {
@@ -133,6 +134,7 @@ body {
   text-decoration: none;
   padding: 10px;
   color: white;
+  padding-left: 20px;
 }
 
 .logout {
@@ -275,4 +277,50 @@ body {
     /* width = 100 / (9 / 16) = 177.777777 */
     width: 177.78vh;
   }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.drop-button {
+  background-color: rgb(150, 0, 0);
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding-right: 85px;
+  padding-left: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(150, 0, 0);
+  min-width: 160px;
+  z-index: 1;
+  right: 0;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: grey;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .drop-button {
+  background-color: rgb(150, 0, 0);
 }
