@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
 body {
   padding: 10px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -121,7 +129,7 @@ body {
   text-decoration: none;
   color: white;
   padding: 10px;
-  padding-left: 85px;
+  padding-left: 50px;
 }
 
 .login {
@@ -193,14 +201,22 @@ body {
 .weightClass {
   color: white;
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+  margin: auto;
 }
 
 .rank {
   color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .name {
   color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .rankName {
@@ -221,21 +237,21 @@ body {
   text-decoration: none;
   color: black;
   box-shadow: 6px 4px black;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .standings {
-  background-color: rgb(150, 0, 0);
-  margin: 20px;
-  padding: auto;
-  margin-bottom: 60px;
-  margin-top: 90px;
   display: flex;
   flex-direction: column;
-  width: 300px;
-  float: left;
+  background-color: rgb(150, 0, 0);
   border-radius: 5px;
+  width: 300px;
+  margin: auto;
+  margin-left: 20px;
+  margin-right: 20px;
   box-shadow: 6px 4px black;
+  margin-top: 40px;
 }
 
 .standings-organizer {
@@ -246,7 +262,9 @@ body {
 }
 
 .hr-standings-splitter {
-  width: 90%;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 .video-container{
@@ -291,7 +309,7 @@ body {
   color: white;
   border: none;
   cursor: pointer;
-  padding-right: 85px;
+  padding-right: 40px;
   padding-left: 20px;
 }
 
@@ -302,6 +320,8 @@ body {
   min-width: 160px;
   z-index: 1;
   right: 0;
+  text-align: center;
+  margin-right: -10px;
 }
 
 .dropdown-content a {
@@ -311,6 +331,7 @@ body {
   padding-right: 20px;
   text-decoration: none;
   display: block;
+  /* border-top: 1px solid #c9d4d8; */
 }
 
 .dropdown-content a:hover {

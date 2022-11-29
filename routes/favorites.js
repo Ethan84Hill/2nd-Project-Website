@@ -9,7 +9,7 @@ const axios = require("axios");
 
 
 router.get('/list-favorites', (req, res, next) => {
-    Fighter.find()
+    Fighter.find({owner: req.session.user._id})
     .then((foundfighters) => {
     res.render('list-favorites.hbs', {foundfighters})
   })

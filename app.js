@@ -11,6 +11,9 @@ const newsRouter = require('./routes/news')
 const standingsRouter = require('./routes/standings')
 const scheduleRouter = require('./routes/schedule')
 const favoritesRouter = require('./routes/favorites')
+// const User = require('../models/User.model');
+// const isLoggedIn = require('../middleware/isLoggedIn')
+// const isLoggedOut = require('../middleware/isLoggedOut')
 
 var app = express();
 
@@ -18,6 +21,13 @@ var app = express();
 require("./config/session.config")(app);
 
 require('dotenv/config')
+
+
+app.use(function(req, res, next){
+  res.locals.user = req.session.user;
+  console.log(res.locals.user);
+  next();
+});
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

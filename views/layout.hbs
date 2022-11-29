@@ -15,9 +15,8 @@
     <nav class="nav-bar">
       <a class="left-side-nav" href="/">Home</a>
       <div class="right-side-nav">
-        <a class="login" href="/login">Log In</a>
-        <a class="signup" href="/signup">Sign Up</a>
-  
+        
+  {{#if user}}
     <div class="dropdown">
         <button class="drop-button">Profile</button>
         <div class="dropdown-content">
@@ -30,8 +29,11 @@
             <a class="create-favorites" href="/create-favorites">Add Favorite</a>
         </div>
     </div>
-      
-        
+  {{else}}    
+        <a class="login" href="/login">Log In</a>
+        <a class="signup" href="/signup">Sign Up</a>
+
+{{/if}}
       </div>
     </nav>
     

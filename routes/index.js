@@ -80,7 +80,8 @@ router.post('/login', (req, res, next) => {
 
           req.session.user = foundUser
           // res.send('logged in')
-          res.render('index.hbs', foundUser)
+          res.redirect('/')
+          // res.render('index.hbs', foundUser)
       })
       .catch(err => {
           console.log(err)
@@ -93,11 +94,6 @@ router.get('/logout', (req, res, next) => {
       res.redirect('/login');
   })
 })
-
-
-
-
-
 
 
 

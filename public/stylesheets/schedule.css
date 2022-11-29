@@ -18,11 +18,16 @@
     color: white;
     text-align: center;
     text-decoration: underline;
+    margin: auto;
+    width: 550px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .fight-header {
     color: white;
     text-align: center;
+    padding: 10px;
 }
 
 .fighter-organizer {
@@ -40,17 +45,22 @@
 .fighter-name {
     color: white;
     text-align: center;
+    padding: 20px;
 }
 
 .betting-odds {
     color: white;
     text-align: center;
+    padding: 10px;
 }
 
 .hr-line {
-    width: 40%;
+    width: 60%;
+    margin: auto;
 }
 
 .hr-fight-splitter {
     width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
 }
