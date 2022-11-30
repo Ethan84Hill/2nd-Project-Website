@@ -6,11 +6,13 @@
 }
 
 .event-background {
-    background-color: rgb(150, 0, 0);
+    /* background-color: rgb(150, 0, 0); */
+    background-color: black;
+    border: 2px solid rgb(150, 0, 0);
     border-radius: 5px;
     width: 585px;
     margin: auto;
-    box-shadow: 6px 4px black;
+    /* box-shadow: 6px 4px black; */
     margin-top: 40px;
 }
 
@@ -22,12 +24,14 @@
     width: 550px;
     padding-bottom: 10px;
     padding-top: 10px;
+    font-size: 40px;
 }
 
 .fight-header {
     color: white;
     text-align: center;
     padding: 10px;
+    font-size: 30px;
 }
 
 .fighter-organizer {
@@ -46,16 +50,18 @@
     color: white;
     text-align: center;
     padding: 20px;
+    font-size: 20px;
 }
 
 .betting-odds {
     color: white;
     text-align: center;
     padding: 10px;
+    font-size: 20px;
 }
 
 .hr-line {
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 

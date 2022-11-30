@@ -1,20 +1,24 @@
 .highlights-header {
     color: white;
-    background-color: rgb(150, 0, 0);
+    /* background-color: rgb(150, 0, 0); */
+    background-color: black;
+    border: 2px solid rgb(150, 0, 0);
     text-align: center;
     margin: auto;
     margin-bottom: 30px;
     padding: 10px;
     width: 500px;
     border-radius: 5px;
-    box-shadow: 6px 4px black;
+    font-size: 40px;
+    /* box-shadow: 6px 4px black; */
 }
 
 .highlights-container {
     width: 500px;
     height: 281px;
     margin: auto;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border: 2px solid white;
 }
 
 .highlights-title {
@@ -26,11 +30,13 @@
 }
 
 .highlights-background {
-    background-color: rgb(150, 0, 0);
+    /* background-color: rgb(150, 0, 0); */
+    background-color: black;
+    border: 2px solid rgb(150, 0, 0);
     border-radius: 5px;
     width: 585px;
     margin: auto;
-    box-shadow: 6px 4px black;
+    /* box-shadow: 6px 4px black; */
     margin-bottom: 40px;
 }
 
