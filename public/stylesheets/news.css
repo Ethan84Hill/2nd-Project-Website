@@ -45,7 +45,10 @@
     border: 2px solid rgb(150, 0, 0);
     object-position: 20% 10%;
     margin: 10px;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .news-title {
@@ -77,6 +80,5 @@
 
 .news-splitter {
     margin: auto;
-    color: rgb(150, 0, 0);
-    background-color: rgb(150, 0, 0);
+    border: 2px solid rgb(150, 0, 0);
 }

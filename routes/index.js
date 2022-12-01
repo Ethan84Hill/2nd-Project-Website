@@ -20,14 +20,14 @@ router.post('/signup', (req, res, next) => {
   console.log(req.body)
 
   if(!req.body.email || !req.body.password) {
-      res.send('sorry you forgot an email or password')
+    res.render('signup.hbs', { errorMessage: 'Sorry you forgot an email or password!'})
       return;
   }
 
   User.findOne({ email: req.body.email })
   .then(foundUser => {
       if(foundUser) {
-          res.send('sorry user already exists')
+        res.render('signup.hbs', { errorMessage: 'Sorry user already exists!'})
           return;
       }
 
@@ -57,7 +57,7 @@ router.post('/login', (req, res, next) => {
   const { email, password } = req.body
 
   if(!email || !password) {
-      res.render('login.hbs', { errorMessage: 'sorry you forgot email or password'})
+      res.render('login.hbs', { errorMessage: 'Sorry you forgot an email or password!'})
       return;
   }
 
@@ -66,7 +66,7 @@ router.post('/login', (req, res, next) => {
 
           if(!foundUser) {
               // res.send('sorry user does not exist')
-              res.render('login.hbs', { errorMessage: 'sorry user does not exist' })
+              res.render('login.hbs', { errorMessage: 'Sorry this user does not exist!' })
               return;
           }
 
@@ -74,7 +74,7 @@ router.post('/login', (req, res, next) => {
 
           if(!isValidPassword) {
               // res.send('sorry wrong password')
-              res.render('login.hbs', { errorMessage: 'sorry wrong password' })
+              res.render('login.hbs', { errorMessage: 'Sorry wrong password!' })
               return;
           }
 
