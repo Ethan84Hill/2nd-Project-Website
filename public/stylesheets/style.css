@@ -145,6 +145,7 @@ body {
   text-decoration: none;
   padding: 10px;
   color: white;
+  padding-right: 70px;
 }
 
 .signup {
@@ -152,6 +153,7 @@ body {
   padding: 10px;
   color: white;
   padding-left: 20px;
+  padding-right: 70px;
 }
 
 .logout {
